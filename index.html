@@ -9,13 +9,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Landing Page - Start Bootstrap Theme</title>
+    <title>mlbx.io - Email: Sicher, Grün & Werbefrei</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/landing-page.css" rel="stylesheet">
+    <link rel="stylesheet" href="js/flipclock/compiled/flipclock.css">
 
     <!-- Custom Fonts -->
     <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -43,19 +44,19 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand topnav" href="#">Start Bootstrap</a>
+                <a class="navbar-brand topnav" href="#">mlbx.io</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#sicher">Sicher</a>
                     </li>
                     <li>
-                        <a href="#services">Services</a>
+                        <a href="#grün">Grün</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="#freie_software">Freie Software</a>
                     </li>
                 </ul>
             </div>
@@ -73,10 +74,34 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="intro-message">
-                        <h1>Landing Page</h1>
-                        <h3>A Template by Start Bootstrap</h3>
+                        <h1>mlbx.io Email: </h1>
+                        <h3>Sicher, Grün & Freie Software</h3><br>
+                        <div class="col-md-12">
+                          <div class = "col-md-8 col-md-offset-2">
+                            <div id="countdown"></div>
+                          </div>
+                        </div>
+                        <!-- Begin MailChimp Signup Form -->
+                        <link href="//cdn-images.mailchimp.com/embedcode/horizontal-slim-10_7.css" rel="stylesheet" type="text/css">
+                        <!--style type="text/css">
+                        	#mc_embed_signup{background:#fff; clear:left; font:14px Helvetica,Arial,sans-serif; width:100%;}
+                        	/* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+                        	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+                        </style-->
+                        <div id="mc_embed_signup">
+                        <form action="https://mlbx.us14.list-manage.com/subscribe/post?u=d813c316c33d42cf5a1026333&amp;id=304262e075" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
+                        	<label for="mce-EMAIL">Email erhalten, wenn der Service startet:</label><br>
+                        	<input type="email" value="" name="EMAIL" style="color: black;"class="email" id="mce-EMAIL" placeholder="Email-Adresse" required><br>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d813c316c33d42cf5a1026333_304262e075" tabindex="-1" value=""></div>
+                            <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"></div>
+                            </div>
+                        </form>
+                        </div>
+                        <!--End mc_embed_signup-->
                         <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
+                        <!--ul class="list-inline intro-social-buttons">
                             <li>
                                 <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
                             </li>
@@ -85,7 +110,7 @@
                             </li>
                             <li>
                                 <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                            </li>
+                            </li-->
                         </ul>
                     </div>
                 </div>
@@ -99,7 +124,7 @@
 
     <!-- Page Content -->
 
-	<a  name="services"></a>
+	<a  name="sicher"></a>
     <div class="content-section-a">
 
         <div class="container">
@@ -107,11 +132,12 @@
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Death to the Stock Photo:<br>Special Thanks</h2>
-                    <p class="lead">A special thanks to <a target="_blank" href="http://join.deathtothestockphoto.com/">Death to the Stock Photo</a> for providing the photographs that you see in this template. Visit their website to become a member.</p>
+                    <h2 class="section-heading">Sicher:<br>Verschlüsselung & Anonyme Zahlung</h2>
+                    <p class="lead">Nach dem Upload eines öffentlichen PGP Schlüssels werden alle eingehenden Emails automatisch verschlüsselt.<br>
+                    Außerdem ist eine anonyme Zahlung per Post, Überweisung oder PayPal möglich.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/ipad.png" alt="">
+                    <img class="img-responsive" src="img/lock.jpg" alt="">
                 </div>
             </div>
 
@@ -120,7 +146,7 @@
 
     </div>
     <!-- /.content-section-a -->
-
+    <a  name="grün"></a>
     <div class="content-section-b">
 
         <div class="container">
@@ -129,11 +155,13 @@
                 <div class="col-lg-5 col-lg-offset-1 col-sm-push-6  col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">3D Device Mockups<br>by PSDCovers</h2>
-                    <p class="lead">Turn your 2D designs into high quality, 3D product shots in seconds using free Photoshop actions by <a target="_blank" href="http://www.psdcovers.com/">PSDCovers</a>! Visit their website to download some of their awesome, free photoshop actions!</p>
+                    <h2 class="section-heading">Grün & Sozial:<br>Strom aus Wasserkraft & soziale Bank</h2>
+                    <p class="lead">Der für die Server benötigte Strom wird zu 100% durch Wasserkraft erzeugt. <br>
+                      Unser Firmenkonto ist bei der GLS-Bank, welche das Geld ausschließlich zur Finanzierung von sozialen und ökologisch sinnvollen Projekten einsetzt.
+                    </p>
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
-                    <img class="img-responsive" src="img/dog.png" alt="">
+                    <img class="img-responsive" src="img/landscape.jpg" alt="">
                 </div>
             </div>
 
@@ -142,20 +170,19 @@
 
     </div>
     <!-- /.content-section-b -->
-
+    <a  name="freie_software"></a>
     <div class="content-section-a">
-
         <div class="container">
-
             <div class="row">
                 <div class="col-lg-5 col-sm-6">
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
-                    <h2 class="section-heading">Google Web Fonts and<br>Font Awesome Icons</h2>
-                    <p class="lead">This template features the 'Lato' font, part of the <a target="_blank" href="http://www.google.com/fonts">Google Web Font library</a>, as well as <a target="_blank" href="http://fontawesome.io">icons from Font Awesome</a>.</p>
+                    <h2 class="section-heading">Freie Software & Service-Erweiterung</h2>
+                    <p class="lead">Mit einem Account unterstützen Sie direkt die Entwicklung von Freier Open Source Software. <br>
+                    Zusätzlich wird der Email-server mit steigenden Nutzerzahlen, um neue Funktionen erweitert.</p>
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/phones.png" alt="">
+                    <img class="img-responsive" src="img/notebook.jpg" alt="">
                 </div>
             </div>
 
@@ -172,20 +199,20 @@
 
             <div class="row">
                 <div class="col-lg-6">
-                    <h2>Connect to Start Bootstrap:</h2>
+                    <h2>Newsletter:</h2>
                 </div>
                 <div class="col-lg-6">
-                    <ul class="list-inline banner-social-buttons">
-                        <li>
-                            <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                        </li>
-                        <li>
-                            <a href="https://github.com/IronSummitMedia/startbootstrap" class="btn btn-default btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                        </li>
-                        <li>
-                            <a href="#" class="btn btn-default btn-lg"><i class="fa fa-linkedin fa-fw"></i> <span class="network-name">Linkedin</span></a>
-                        </li>
-                    </ul>
+                  <div id="mc_embed_signup">
+                    <form action="https://mlbx.us14.list-manage.com/subscribe/post?u=d813c316c33d42cf5a1026333&amp;id=304262e075" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+                        <div id="mc_embed_signup_scroll">
+                      <label for="mce-EMAIL">Email erhalten, wenn der Service startet:</label><br>
+                      <input type="email" value="" name="EMAIL" style="color: black;"class="email" id="mce-EMAIL" placeholder="Email-Adresse" required><br>
+                        <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                        <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_d813c316c33d42cf5a1026333_304262e075" tabindex="-1" value=""></div>
+                        <div class="clear"><input type="submit" value="Subscribe" name="subscribe" id="mc-embedded-subscribe" class="btn btn-primary"></div>
+                        </div>
+                    </form>
+                  </div>
                 </div>
             </div>
 
@@ -206,18 +233,19 @@
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#about">About</a>
+                            <a href="#sicher">Sicher</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#services">Services</a>
+                            <a href="#grün">Grün</a>
                         </li>
                         <li class="footer-menu-divider">&sdot;</li>
                         <li>
-                            <a href="#contact">Contact</a>
+                            <a href="#freie_software">Freie Software</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Your Company 2014. All Rights Reserved</p>
+                    <p class="copyright text-muted small">Copyright &copy; code-a.io 2016. All Rights Reserved</p>
+                    <p class="copyright text-muted small">Credits Lock Image:<a href="https://www.flickr.com/photos/110751683@N02/13334048894/sizes/z/in/photolist-mjhubJ-mjhDwB/">Yuri</a></p>
                 </div>
             </div>
         </div>
@@ -228,6 +256,19 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="js/bootstrap.min.js"></script>
+
+    <script src="js/flipclock/compiled/flipclock.min.js"></script>
+    <script>
+    var date = new Date(2016, 11, 26);
+    var now = new Date();
+    var diff = (date.getTime()/1000) - (now.getTime()/1000);
+    var clock = new FlipClock($('#countdown'), {
+    countdown : true,
+    clockFace: 'DailyCounter',
+    });
+    clock.setTime(diff);
+    clock.start();
+    </script>
 
 </body>
 
